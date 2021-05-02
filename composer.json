@@ -1,9 +1,9 @@
 {
-    "name": "mlntn/laravel-unique-queue",
+    "name": "ulasoft/laravel-unique-queue",
     "type": "library",
     "description": "Laravel queue connection that prevents identical jobs from being queued",
     "keywords": ["laravel", "queue", "unique"],
-    "homepage": "http://github.com/mlntn/laravel-unique-queue",
+    "homepage": "http://github.com/ulasoft/laravel-unique-queue",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,7 @@
     "minimum-stability": "stable",
 
     "require": {
-        "php": "~7.1",
+        "php": "~7.1||~8.0",
         "illuminate/queue": "~5.7||~6||~7||~8",
         "illuminate/redis": "~5.7||~6||~7||~8"
     },
